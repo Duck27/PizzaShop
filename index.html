@@ -15,15 +15,16 @@
     <link rel="stylesheet" crossorigin href="/PizzaShop/assets/index-7jiyjvio.css">
   </head>
   <body>
-    <script>
+<script>
   (function() {
-    var redirect = sessionStorage.redirect;
-    delete sessionStorage.redirect;
-    if (redirect && redirect !== location.href) {
+    var redirect = sessionStorage.getItem('redirect');
+    if (redirect) {
+      sessionStorage.removeItem('redirect');
       history.replaceState(null, null, redirect);
     }
   })();
 </script>
+
 
     <div id="root"></div>
   </body>
