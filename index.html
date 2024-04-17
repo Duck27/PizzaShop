@@ -17,10 +17,13 @@
   <body>
     <script>
       (function () {
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect !== location.href) {
-          history.replaceState(null, null, redirect);
+        // Проверка наличия пути в localStorage
+        var redirectPath = localStorage.getItem("redirectPath");
+        if (redirectPath) {
+          // Очистка сохраненного пути, чтобы избежать бесконечного цикла перенаправления
+          localStorage.removeItem("redirectPath");
+          // Использование history API браузера для обновления URL без перезагрузки страницы
+          history.replaceState(null, null, redirectPath);
         }
       })();
     </script>
