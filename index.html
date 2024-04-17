@@ -15,19 +15,6 @@
     <link rel="stylesheet" crossorigin href="/PizzaShop/assets/index-7jiyjvio.css">
   </head>
   <body>
-    <script>
-      (function () {
-        // Проверка наличия пути в localStorage
-        var redirectPath = localStorage.getItem("redirectPath");
-        if (redirectPath) {
-          // Очистка сохраненного пути, чтобы избежать бесконечного цикла перенаправления
-          localStorage.removeItem("redirectPath");
-          // Использование history API браузера для обновления URL без перезагрузки страницы
-          history.replaceState(null, null, redirectPath);
-        }
-      })();
-    </script>
-
     <div id="root"></div>
   </body>
 </html>
