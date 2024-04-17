@@ -2,26 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <script>
-    // Код перенаправления для GitHub Pages
-    (function() {
-      var redirect = sessionStorage.redirect;
-      delete sessionStorage.redirect;
-      if (redirect && redirect != location.href) {
-        history.replaceState(null, null, redirect);
-      }
-    })();
-  </script>
 </head>
 <body>
   <script>
-    // Проверяем наличие пути после символа '#'
-    var path = window.location.href.split('#')[1];
-    if (path) {
-      // Если путь существует, сохраняем его в sessionStorage и перенаправляем на index.html
-      sessionStorage.redirect = path;
-      window.location.replace('/index.html');
-    }
+    // Сохраняем путь, который привел к 404 ошибке
+    sessionStorage.setItem('redirect', location.pathname + location.search);
+    // Перенаправляем на главную страницу
+    window.location.href = '/';
   </script>
 </body>
 </html>
