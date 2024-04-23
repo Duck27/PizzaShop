@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "imageUrl": "/public/img/pizzas/pepperoni.jpg",
+    "imageUrl": "/PizzaShop/img/pizzas/pepperoni.jpg",
     "title": "Пепперони Фреш с перцем",
     "types": [0, 1],
     "sizes": [26, 30, 40],
@@ -11,7 +11,7 @@
   },
   {
     "id": 1,
-    "imageUrl": "/public/img/pizzas/cheese.jpg",
+    "imageUrl": "/PizzaShop/img/pizzas/cheese.jpg",
     "title": "Сырная",
     "types": [0],
     "sizes": [26, 40],
@@ -21,7 +21,7 @@
   },
   {
     "id": 2,
-    "imageUrl": "/public/img/pizzas/chicken.jpg",
+    "imageUrl": "/PizzaShop/img/pizzas/chicken.jpg",
     "title": "Цыпленок барбекю",
     "types": [0],
     "sizes": [26, 40],
@@ -31,7 +31,7 @@
   },
   {
     "id": 3,
-    "imageUrl": "/public/img/pizzas/sweetChicken.jpg",
+    "imageUrl": "/PizzaShop/img/pizzas/sweetChicken.jpg",
     "title": "Кисло-сладкий цыпленок",
     "types": [1],
     "sizes": [26, 30, 40],
@@ -41,7 +41,7 @@
   },
   {
     "id": 4,
-    "imageUrl": "/public/img/pizzas/chicken.jpg",
+    "imageUrl": "/PizzaShop/img/pizzas/chicken.jpg",
 
     "title": "Чизбургер-пицца",
     "types": [0, 1],
@@ -52,7 +52,7 @@
   },
   {
     "id": 5,
-    "imageUrl": "/public/img/pizzas/crazePepperoni.jpg",
+    "imageUrl": "/PizzaShop/img/pizzas/crazePepperoni.jpg",
     "title": "Крэйзи пепперони",
     "types": [0],
     "sizes": [30, 40],
@@ -62,7 +62,7 @@
   },
   {
     "id": 6,
-    "imageUrl": "/public/img/pizzas/pepperoni.jpg",
+    "imageUrl": "/PizzaShop/img/pizzas/pepperoni.jpg",
     "title": "Пепперони",
     "types": [0, 1],
     "sizes": [26, 30, 40],
@@ -72,7 +72,7 @@
   },
   {
     "id": 7,
-    "imageUrl": "/public/img/pizzas/margarita.jpg",
+    "imageUrl": "/PizzaShop/img/pizzas/margarita.jpg",
     "title": "Маргарита",
     "types": [0, 1],
     "sizes": [26, 30, 40],
@@ -82,7 +82,7 @@
   },
   {
     "id": 8,
-    "imageUrl": "/public/img/pizzas/fourSeason.jpg",
+    "imageUrl": "/PizzaShop/img/pizzas/fourSeason.jpg",
     "title": "Четыре сезона",
     "types": [0, 1],
     "sizes": [26, 30, 40],
@@ -93,7 +93,7 @@
 
   {
     "id": 9,
-    "imageUrl": "/public/img/pizzas/vegAndMush.jpg",
+    "imageUrl": "/PizzaShop/img/pizzas/vegAndMush.jpg",
     "title": "Овощи и грибы 🌱",
     "types": [0, 1],
     "sizes": [26, 30, 40],

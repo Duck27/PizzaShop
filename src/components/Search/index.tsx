@@ -1,13 +1,7 @@
-import React, {
-  ChangeEvent,
-  SVGAttributes,
-  useCallback,
-  useRef,
-  useState,
-} from "react";
+import { ChangeEvent, useCallback, useRef, useState } from "react";
 import styles from "./Search.module.scss";
-import SearchIcon from "../../assets/search_icon.svg";
-import CloseIcon from "../../assets/close_icon.svg";
+import SearchIcon from "../../../public/img/search_icon.svg";
+import CloseIcon from "../../../public/img/close_icon.svg";
 import { setSearch } from "../../redux/slices/filter/slice";
 import { useDispatch } from "react-redux";
 import { debounce } from "lodash";

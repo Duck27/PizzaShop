@@ -1,4 +1,3 @@
-import React from "react";
 import CartPage from "./pages/CartPage";
 import HomePage from "./pages/HomePage";
 import "./scss/app.scss";
@@ -17,7 +16,7 @@ function App() {
           <Route path="/cart" element={<CartPage />}></Route>
           <Route path="/notFound" element={<EmptyCartPage />}></Route>
           <Route path="/pizza/:id" element={<FullPizza />}></Route>
-          <Route path="*" element={<NotFoundPage />}></Route>
+          <Route path="/*" element={<NotFoundPage />}></Route>
         </Route>
       </Routes>
     </div>
